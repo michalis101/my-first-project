@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Collage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5; /* Light background for contrast */
+        }
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .collage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px; /* Rounded corners for a modern look */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="collage">
+        <img src="download.png" alt="Image 1">
+        <img src="f7e1fad2-6cba-49a1-8870-6ee32b370acb.jpeg" alt="Image 2">
+        <img src="Summer Classy Outfit.jpeg" alt="Image 3">
+        <img src="42a1410f-67fa-43ca-aeb3-6c8ebc576f1e.jpeg" alt="Image 4">
+        <img src="Welcome to SHEIN.jpeg" alt="Image 5">
+        <img src="b477f90e-7c5d-44a6-8e28-0773c970b007.jpeg" alt="Image 6">
+        <img src="9569abee-b2c7-4595-b2e8-412472464928.jpeg" alt="Image 7">
+        <img src="bb8fbd1b-5635-4ea2-9f8b-86969ab6f36f.jpeg" alt="Image 8">
+        <img src="The Birth of Batman.jpeg" alt="Image 9">
+        <img src="404a074f-4a52-4d3d-be49-f02cc97763f1.jpeg" alt="Image 10">
+    </div>
+</body>
+</html>
